@@ -77,13 +77,12 @@
             }
         </style>
     </head>
-
     <body>
     <script>
-      //function init() {
+      //function init() 
       // When API is ready...                                                         
-           gapi.hangout.onApiReady.add(
-              function(eventObj) {
+           gapi.hangout.onApiReady.add
+              function(eventObj) 
             document.getElementById('showParticipants')
                  .style.visibility = 'visible';
       
