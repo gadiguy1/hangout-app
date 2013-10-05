@@ -79,9 +79,6 @@
     </head>
 
     <body>
-    <script src="//hangoutsapi.talkgadget.google.com/talkgadget/apps/gadgets/js/rpc.js"></script>             
-    <script src="//hangoutsapi.talkgadget.google.com/hangouts/api/hangout.js?v=1.4"></script> 
-    
     <script>
       function init() {
       // When API is ready...                                                         
@@ -90,7 +87,8 @@
             document.getElementById('showParticipants')
                  .style.visibility = 'visible';
       }
-  });
+  }<script src="//hangoutsapi.talkgadget.google.com/talkgadget/apps/gadgets/js/rpc.js"></script>             
+    <script src="//hangoutsapi.talkgadget.google.com/hangouts/api/hangout.js?v=1.4"></script> );
 }
 
 // Add startup listener immediately.  If you need an
@@ -103,7 +101,6 @@ init();
                <p>Your browser doesn't support HTML5 canvas.</p>
             </canvas>
         </div>
-
         <!-- Run the game code -->
         <script type="text/javascript" src="https://rawgithub.com/gadiguy1/hangout-app/master/html5game/shoot_down_targil_for_passover_working_M.js"></script>
     </body>
