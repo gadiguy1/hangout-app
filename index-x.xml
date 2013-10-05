@@ -95,7 +95,7 @@
             </canvas>
         </div>
         <!-- Run the game code -->
-        <script type="text/javascript" src="https://rawgithub.com/gadiguy1/hangout-app/master/html5game/shoot_down_targil_for_passover_working_M.js"></script>
+        <script src="//rawgithub.com/gadiguy1/hangout-app/master/html5game/shoot_down_targil_for_passover_working_M.js"></script>
     </body>
 </html> 
 //]]>
