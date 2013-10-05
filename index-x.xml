@@ -80,7 +80,7 @@
 
     <body>
     <script>
-      function init() {
+      //function init() {
       // When API is ready...                                                         
            gapi.hangout.onApiReady.add(
               function(eventObj) {
@@ -100,6 +100,7 @@
         <!-- Run the game code -->
         <script type="text/javascript" src="https://rawgithub.com/gadiguy1/hangout-app/master/html5game/shoot_down_targil_for_passover_working_M.js"></script>
     </body>
-</html> ]]>
+</html> 
+//]]>
   </Content>
 </Module>
