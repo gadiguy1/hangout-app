@@ -79,13 +79,13 @@
     </head>
     <body>
     <script>
-      //function init() 
+      //function init(){ 
       // When API is ready...                                                         
-           gapi.hangout.onApiReady.add
-              function(eventObj) 
+           gapi.hangout.onApiReady.add(
+              function(eventObj){ 
             document.getElementById('showParticipants')
-                 .style.visibility = 'visible';
-      
+                 .style.visibility = 'visible';})
+    }  
     <script src="//hangoutsapi.talkgadget.google.com/talkgadget/apps/gadgets/js/rpc.js"></script>             
     <script src="//hangoutsapi.talkgadget.google.com/hangouts/api/hangout.js?v=1.4"></script>
 
