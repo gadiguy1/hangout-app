@@ -86,10 +86,10 @@
               function(eventObj) {
             document.getElementById('showParticipants')
                  .style.visibility = 'visible';
-      }
-  }<script src="//hangoutsapi.talkgadget.google.com/talkgadget/apps/gadgets/js/rpc.js"></script>             
-    <script src="//hangoutsapi.talkgadget.google.com/hangouts/api/hangout.js?v=1.4"></script> );
-}
+      
+    <script src="//hangoutsapi.talkgadget.google.com/talkgadget/apps/gadgets/js/rpc.js"></script>             
+    <script src="//hangoutsapi.talkgadget.google.com/hangouts/api/hangout.js?v=1.4"></script>
+
 </script>
         <div class="gm4html5_div_class" id="gm4html5_div_id">
             <!-- Create the canvas element the game draws to -->
